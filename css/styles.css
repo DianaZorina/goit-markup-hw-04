@@ -115,10 +115,21 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 .nav-item-link:hover,
 .nav-item-link:active,
 .nav-item-link:focus {
   color: #404bbf;
+}
+
+.li-studio::after {
+  content: "_";
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: #404bbf;
+  display: block;
+  margin: auto;
 }
 
 .address-page {
@@ -157,6 +168,17 @@ img {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0 188px;
+  margin: auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/heroimage.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-clip: padding-box;
+  width: 1440px;
 }
 
 .hero-title {
@@ -312,6 +334,21 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.ourteam-chats {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  gap: 24px;
+  fill: #2c2686;
+  background-color: #4d5ae5;
+}
+
+.ourteam-chats:hover,
+.ourteam-chats:focus {
+  color: #31d0aa;
 }
 /* #endregion Our Team section */
 
