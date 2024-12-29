@@ -300,8 +300,8 @@ img {
 }
 
 .ourteam-list-li {
+  display: block;
   border-radius: 0 0 4px 4px;
-  width: 264px;
   width: calc((100% - 72px) / 4);
 
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -334,21 +334,39 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding-bottom: 8px;
 }
 
 .ourteam-chats {
+  width: 232px;
+  height: 40px;
+  margin: auto;
+}
+.ourteam-chats-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
-  flex-wrap: nowrap;
-  margin-top: 8px;
-  margin-bottom: 8px;
   gap: 24px;
-  fill: #2c2686;
+}
+.ourteam-chats-li {
+  border-radius: 50%;
   background-color: #4d5ae5;
 }
-
-.ourteam-chats:hover,
-.ourteam-chats:focus {
-  color: #31d0aa;
+.ourteam-chats-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.ourteam-chats-icons {
+  fill: #f4f4fd;
+  display: flex;
+}
+.ourteam-chats-li:hover,
+.ourteam-chats-li:focus {
+  background-color: #31d0aa;
 }
 /* #endregion Our Team section */
 
@@ -421,9 +439,15 @@ img {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 120px;
 }
 
-.container {
+.footer .container {
+  display: flex;
+  gap: 120px;
 }
 
 .logo-footer {
@@ -458,5 +482,47 @@ img {
   justify-content: flex-start;
   align-items: baseline;
   max-width: 264px;
+}
+
+.footer-media {
+}
+.footer-media-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding-bottom: 16px;
+}
+
+.footer-media-ul {
+  width: 208px;
+  height: 40px;
+  column-gap: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-media-li {
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.footer-media-icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-media-icons {
+  fill: #f4f4fd;
+  display: flex;
+}
+
+.footer-media-li:hover,
+.footer-media-li:focus {
+  background-color: #31d0aa;
 }
 /* #endregion section Footer */
