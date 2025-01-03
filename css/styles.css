@@ -114,16 +114,27 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #404bbf;
   padding-top: 24px;
   padding-bottom: 24px;
-  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .nav-item-link:hover,
 .nav-item-link:active,
 .nav-item-link:focus {
   color: #404bbf;
+}
+
+.div-studio {
+  content: '_';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 .div-studio .nav-item-link {
@@ -137,14 +148,6 @@ img {
 }
 
 .div-studio .nav-item-link::after {
-  content: '_';
-  border-radius: 2px;
-  width: 100%;
-  background-color: #404bbf;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
 }
 
 .address-page {
@@ -439,10 +442,8 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-li:hover,
-.portfolio-li:active {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.portfolio-li:hover{
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .ourportfolio-title-item {
@@ -467,11 +468,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  transform: translateY(0%);
 }
 
 .ourportfolio-title-txt:hover {
-  transform: translateY(0%);
 }
 
 .overlay {
@@ -501,6 +500,7 @@ img {
 
 .overlay-txt:hover,
 .overlay-txt:focus {
+  transform: translateY(0%);
 }
 /* #endregion Portfolio section */
 
@@ -517,6 +517,8 @@ img {
 .footer .container {
   display: flex;
   gap: 120px;
+  align-items: baseline;
+  margin-right: 120px
 }
 
 .logo-footer {
@@ -554,8 +556,6 @@ img {
 }
 
 .footer-media {
-  align-items: baseline;
-  margin-right: 120px;
 }
 
 .footer-media-item {
@@ -577,7 +577,6 @@ img {
 }
 
 .footer-media-li {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-media-icons-link {
@@ -587,7 +586,8 @@ img {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  background-color: #4d5ae5
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-media-icons {
