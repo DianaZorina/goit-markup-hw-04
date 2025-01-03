@@ -127,14 +127,6 @@ img {
 }
 
 .div-studio {
-  content: '_';
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
 }
 
 .div-studio .nav-item-link {
@@ -148,6 +140,14 @@ img {
 }
 
 .div-studio .nav-item-link::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 .address-page {
@@ -442,8 +442,9 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-li:hover{
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.portfolio-li:hover,
+.portfolio-li:active {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .ourportfolio-title-item {
@@ -474,16 +475,14 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 .overlay {
-  width: 360px;
-  height: 300px;
   position: relative;
-  overflow: hidden;
   transform: translateY(-100%);
+  overflow: hidden;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
 }
 
-.overlay-txt {
-  font-weight: 400;
+.overlay-txt {  
   color: #f4f4fd;
   position: absolute;
   top: 0;
@@ -518,7 +517,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   display: flex;
   gap: 120px;
   align-items: baseline;
-  margin-right: 120px
 }
 
 .logo-footer {
@@ -556,6 +554,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 .footer-media {
+  margin-right: 120px;
 }
 
 .footer-media-item {
