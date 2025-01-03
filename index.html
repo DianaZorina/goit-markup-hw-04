@@ -111,9 +111,11 @@
           <h2 class="features-title visually-hidden">Features</h2>
           <ul class="features-list">
             <li class="features-list-li">
-              <svg class="feature-icons" width="64" height="65">
-                <use href="./images/icons.svg#icon-antenna1"></use>
-              </svg>
+              <div class="icons-svg">
+                <svg class="feature-icons" width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna1"></use>
+                </svg>
+              </div>
               <h3 class="features-title-item">Strategy</h3>
               <p class="features-title-txt">
                 Our goal is to identify the business problem to walk away with
@@ -121,9 +123,11 @@
               </p>
             </li>
             <li class="features-list-li">
-              <svg class="feature-icons" width="64" height="65">
-                <use href="./images/icons.svg#icon-clock2"></use>
-              </svg>
+              <div class="icons-svg">
+                <svg class="feature-icons" width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock2"></use>
+                </svg>
+              </div>
               <h3 class="features-title-item">Punctuality</h3>
               <p class="features-title-txt">
                 Bring the key message to the brand's audience for the best price
@@ -131,9 +135,11 @@
               </p>
             </li>
             <li class="features-list-li">
-              <svg class="feature-icons" width="64" height="65">
-                <use href="./images/icons.svg#icon-diagram3"></use>
-              </svg>
+              <div class="icons-svg">
+                <svg class="feature-icons" width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram3"></use>
+                </svg>
+              </div>
               <h3 class="features-title-item">Diligence</h3>
               <p class="features-title-txt">
                 Research and confirm brands that present the strongest digital
@@ -141,9 +147,11 @@
               </p>
             </li>
             <li class="features-list-li">
-              <svg class="feature-icons" width="64" height="65">
-                <use href="./images/icons.svg#icon-astronaut4"></use>
-              </svg>
+              <div class="icons-svg">
+                <svg class="feature-icons" width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut4"></use>
+                </svg>
+              </div>
               <h3 class="features-title-item">Technologies</h3>
               <p class="features-title-txt">
                 Design practice focused on digital experiences. We bring forth a
@@ -173,7 +181,6 @@
               <div class="conteiner-name-post">
                 <h3 class="ourteam-title-item">Mark Guerrero</h3>
                 <p class="ourteam-title-txt">Product Designer</p>
-
                 <div class="ourteam-chats">
                   <ul class="ourteam-chats-ul">
                     <li class="ourteam-chats-li">
@@ -220,7 +227,6 @@
               <div class="conteiner-name-post">
                 <h3 class="ourteam-title-item">Tom Ford</h3>
                 <p class="ourteam-title-txt">Frontend Developer</p>
-
                 <div class="ourteam-chats">
                   <ul class="ourteam-chats-ul">
                     <li class="ourteam-chats-li">
@@ -267,7 +273,6 @@
               <div class="conteiner-name-post">
                 <h3 class="ourteam-title-item">Camila Garcia</h3>
                 <p class="ourteam-title-txt">Marketing</p>
-
                 <div class="ourteam-chats">
                   <ul class="ourteam-chats-ul">
                     <li class="ourteam-chats-li">
@@ -314,7 +319,6 @@
               <div class="conteiner-name-post">
                 <h3 class="ourteam-title-item">Daniel Wilson</h3>
                 <p class="ourteam-title-txt">UI Designer</p>
-
                 <div class="ourteam-chats">
                   <ul class="ourteam-chats-ul">
                     <li class="ourteam-chats-li">
@@ -345,7 +349,7 @@
                         </svg>
                       </a>
                     </li>
-                  </ul>
+                </ul>
                 </div>
               </div>
             </li>
@@ -360,13 +364,20 @@
           <h2 class="ourportfolio-title">Our Portfolio</h2>
           <ul class="portfolio-ul">
             <li class="portfolio-li">
-              <img
-                class="portfolio-img"
-                src="./images/img1.jpg"
-                alt="Marketing"
-                width="360"
-                height="300"
-              />
+              <div class="overlay">
+                <img
+                  class="portfolio-img"
+                  src="./images/img1.jpg"
+                  alt="Marketing"
+                  width="360"
+                  height="300"
+                />
+                <p class="overlay-txt">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
               <div class="conteiner">
                 <h3 class="ourportfolio-title-item">Banking App</h3>
                 <p class="ourportfolio-title-txt">App</p>
@@ -374,16 +385,14 @@
             </li>
 
             <li class="portfolio-li">
-              <div class="overlay-li">
-                <a href="#" class="overlay-link">
-                  <div class="overlay-img">
-                    <img
-                      src="./images/img2.jpg"
-                      alt="Marketing"
-                      width="360"
-                      height="300"
-                    />
-                    <p class="overlay">
+              <div class="overlay">
+                <img
+                  src="./images/img2.jpg"
+                  alt="Marketing"
+                  width="360"
+                  height="300"
+                />
+                    <p class="overlay-txt">
                       14 Stylish and User-Friendly App Design Concepts · Task
                       Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                       App · Cloud Storage App
@@ -394,16 +403,23 @@
                   <h3 class="ourportfolio-title-item">Cashless Payment</h3>
                   <p class="ourportfolio-title-txt">Marketing</p>
                 </div>
-              </div>
             </li>
 
             <li class="portfolio-li">
-              <img
-                src="./images/img3.jpg"
-                alt="Meditation App"
-                width="360"
-                height="300"
-              />
+              <div class="overlay">
+                <img
+                  src="./images/img3.jpg"
+                  alt="Meditation App"
+                  width="360"
+                  height="300"
+                />
+                <p class="overlay-txt">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+
               <div class="conteiner">
                 <h3 class="ourportfolio-title-item">Meditation App</h3>
                 <p class="ourportfolio-title-txt">App</p>
@@ -411,12 +427,20 @@
             </li>
 
             <li class="portfolio-li">
-              <img
-                src="./images/img4.jpg"
-                alt="Taxi Service Marketing"
-                width="360"
-                height="300"
-              />
+              <div class="overlay">
+                <img
+                  src="./images/img4.jpg"
+                  alt="Taxi Service Marketing"
+                  width="360"
+                  height="300"
+                />
+                <p class="overlay-txt">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+
               <div class="conteiner">
                 <h3 class="ourportfolio-title-item">Taxi Service</h3>
                 <p class="ourportfolio-title-txt">Marketing</p>
@@ -424,12 +448,20 @@
             </li>
 
             <li class="portfolio-li">
-              <img
-                src="./images/img5.jpg"
-                alt="Design"
-                width="360"
-                height="300"
-              />
+              <div class="overlay">
+                <img
+                  src="./images/img5.jpg"
+                  alt="Design"
+                  width="360"
+                  height="300"
+                />
+                <p class="overlay-txt">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+
               <div class="conteiner">
                 <h3 class="ourportfolio-title-item">Screen Illustrations</h3>
                 <p class="ourportfolio-title-txt">Design</p>
@@ -437,12 +469,20 @@
             </li>
 
             <li class="portfolio-li">
-              <img
-                src="./images/img6.jpg"
-                alt="Online Courses"
-                width="360"
-                height="300"
-              />
+              <div class="overlay">
+                <img
+                  src="./images/img6.jpg"
+                  alt="Online Courses"
+                  width="360"
+                  height="300"
+                />
+                <p class="overlay-txt">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+
               <div class="conteiner">
                 <h3 class="ourportfolio-title-item">Online Courses</h3>
                 <p class="ourportfolio-title-txt">Marketing</p>
@@ -471,7 +511,7 @@
         </div>
 
         <div class="footer-media">
-          <h3 class="footer-media-item">Social media</h3>
+          <p class="footer-media-item">Social media</p>
 
           <ul class="footer-media-ul">
             <li class="footer-media-li">
