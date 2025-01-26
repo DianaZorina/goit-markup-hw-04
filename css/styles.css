@@ -434,6 +434,9 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.portfolio-img {
+}
+
 .ourportfolio-item:hover,
 .ourportfolio-item:active {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -447,6 +450,8 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-top: 32px;
+  margin-left: 16px;
   margin-bottom: 8px;
 }
 
@@ -462,6 +467,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-left: 16px;
+  margin-bottom: 32px;
 }
 
 .ourportfolio-title-txt:hover {
@@ -469,7 +476,7 @@ img {
 
 .overlay {
   position: relative;
-  transform: translateY(-100%);
+
   overflow: hidden;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 400;
