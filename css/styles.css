@@ -100,11 +100,6 @@ img {
 }
 
 .nav-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .nav-item-link {
@@ -113,7 +108,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -135,7 +130,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.div-studio::after {
+.studio::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -364,7 +359,7 @@ img {
   padding-bottom: 8px;
 }
 
-.ourteam-chats-div {
+.ourteam-chats {
 }
 .ourteam-chats-ul {
   display: flex;
@@ -375,7 +370,6 @@ img {
 .ourteam-chats-li {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .ourteam-chats-link {
   width: 100%;
@@ -385,6 +379,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .ourteam-chats-icons {
   fill: #f4f4fd;
@@ -508,12 +503,10 @@ img {
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
-  gap: 120px;
 }
 
 .footer .container {
   display: flex;
-  gap: 120px;
   align-items: baseline;
 }
 
