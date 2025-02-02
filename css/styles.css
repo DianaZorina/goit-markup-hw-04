@@ -247,6 +247,7 @@ img {
 }
 
 .features-list-li {
+  width: calc((100% - 72px) / 4);
 }
 
 .icons-svg {
@@ -266,14 +267,13 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 8px;
   margin-bottom: 8px;
 }
 .features-title-txt {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   color: #434455;
 }
 /* #endregion section Feature */
@@ -295,6 +295,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 48px;
 }
 
 .ourteam-list {
@@ -303,7 +304,6 @@ img {
   justify-content: center;
   flex-direction: row;
   gap: 24px;
-  margin-top: 48px;
 }
 
 .ourteam-list-li {
@@ -425,6 +425,12 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.portfolio-app {
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .portfolio-title-item {
   font-weight: 500;
   font-size: 20px;
@@ -432,9 +438,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-top: 32px;
-  margin-left: 16px;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .portfolio-title-item .container {
@@ -449,8 +453,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-left: 16px;
-  margin-bottom: 32px;
 }
 
 .portfolio-title-txt:hover {
