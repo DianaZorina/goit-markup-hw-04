@@ -426,9 +426,10 @@ img {
 }
 
 .portfolio-app {
-  padding-left: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 
 .portfolio-title-item {
@@ -438,7 +439,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-title-item .container {
