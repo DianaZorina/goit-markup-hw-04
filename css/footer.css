@@ -1,6 +1,6 @@
 .footer-container {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
 }
 .footer-info {
   margin-right: 120px;
@@ -52,12 +52,9 @@
 
 .footer-media-ul {
   display: flex;
+  gap: 16px;
   width: 208px;
   height: 40px;
-  column-gap: 16px;
-  display: flex;
-  justify-content: center;
-  gap: 16px;
   list-style: none;
   padding: 0;
   margin: 0;
