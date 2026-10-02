@@ -53,4 +53,35 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
+}
+.team-chats-ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.team-chats-li {
+  width: 100%;
+  height: 100%;
+}
+.team-chats-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-chats-icons {
+  fill: currentColor;
+  color: #f4f4fd;
+  display: flex;
+}
+.team-chats-link:hover,
+.team-chats-link:focus {
+  background-color: #404bbf;
 }

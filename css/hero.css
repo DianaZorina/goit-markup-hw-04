@@ -1,6 +1,11 @@
 .hero {
   background-color: #2e2f42;
   padding: 188px 0 188px;
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url('../images/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-title {
   font-family: 'Roboto', sans-serif;
@@ -28,6 +33,7 @@
   margin-right: auto;
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {

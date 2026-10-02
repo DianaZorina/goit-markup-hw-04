@@ -17,12 +17,25 @@
 }
 .features-list {
   display: flex;
-  align-items: baseline;
-  flex-direction: row;
+  align-items: flex-start;
   gap: 24px;
 }
 .features-items {
   width: calc((100% - 72px) / 4);
+}
+.feature-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
+.ftr-icons {
 }
 .ftrs-title {
   font-family: 'Roboto', sans-serif;
